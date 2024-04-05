@@ -16,4 +16,13 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
+    public double saldo(){
+        return saldo;
+        }
+
+    public void exibeDados(){
+        System.out.println("Nome do titular " + nome_Titular);
+        System.out.println("O numero da conta é : " + numeroConta);
+        System.out.println("O saldo disponivel é " + saldo);
+    }
 }
